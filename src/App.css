@@ -1,0 +1,106 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:600px){
+  .sidebar{
+    width: 100%;
+    display: none;
+    background-color: red;
+  }
+} 
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 19%;
+  padding: 0;
+  background-color: #060E40;
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+  flex-wrap: wrap;
+}
+
+.profile{
+  width:100%;
+  height: 23%;
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  
+}
+
+#name{
+  background-color: #060E40;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.listItem{
+  width:100%;
+  height: auto;
+  padding: 0;
+}
+
+.listItem .row{
+  width: 100%;
+  height: 70px;
+  color:white;
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.listItem .row:hover{
+  background-color: darkslategrey;
+
+}
+
+.listItem #icon{
+  flex: 30%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem #title{
+  flex: 70%;
+  display: grid;
+  align-items: center; 
+  text-decoration: none;
+}
+
+
+.dashboard_wrapper{
+  display: block;
+   width: 77%;
+   flex: 100%;
+  float: right;
+   
+}
+
+
+ 
