@@ -41,3 +41,16 @@
     max-height: 40vh !important;
     overflow:scroll
   }
+
+
+  /* About section */
+
+  .About_wrapper{
+      margin: 30px;
+      font-family: Poppins;
+  }
+
+  .About-heading{
+      margin-top: 50px !important;
+      margin-bottom: 20px !important;
+  }

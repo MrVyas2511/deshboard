@@ -6,21 +6,21 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
+import About from "./pages/dashboard/About";
 
 function App() {
   return (
     <>
-    <div className="App">
+      <div className="App">
         <BrowserRouter>
           <Sidebar />
-          <div className='dashboard_wrapper'>
-          <Routes>
-              <Route path="/dashboard" element={<Dashboard/>} />
+          <div className="dashboard_wrapper">
+            <Routes>
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/about" element={<About />} />
             </Routes>
-            </div>
+          </div>
         </BrowserRouter>
-
       </div>
     </>
   );
