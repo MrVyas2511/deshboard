@@ -17,11 +17,11 @@ export const SidebarData = [
     link: "/",
   },
 
-  {
-    title: "Activity Points",
-    icon: <PeopleAltIcon />,
-    link: "/Activitypoint",
-  },
+    {
+        title:"Activity Points",
+        icon: <PeopleAltIcon/>,
+        link: "/activitypoints"    
+    },
 
   {
     title: "Scholarship",
