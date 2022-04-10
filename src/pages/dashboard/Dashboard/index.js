@@ -41,7 +41,7 @@ const data2 = [
 
 function Dashboard() {
   return (
-    <>
+    <div className="dashboard_wrapper">
       <div className="header">
         <Grid container>
           <Grid item xs={10}>
@@ -79,13 +79,13 @@ function Dashboard() {
         </Grid>
       </div>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <div className="student_details">
             <h2>Student Details</h2>
             <Grid container>
               {Object.keys(data).map((key, id) => {
                 return (
-                  <Grid item xs={6}>
+                  <Grid item xs={12} sm={6}>
                     <Typography
                       variant="h6"
                       className="heading"
@@ -109,7 +109,7 @@ function Dashboard() {
             </Grid>
           </div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <div className="student_details">
             <h2>Student Details</h2>
 
@@ -132,7 +132,7 @@ function Dashboard() {
           </div>
         </Grid>
       </Grid>
-    </>
+    </div>
   );
 }
 

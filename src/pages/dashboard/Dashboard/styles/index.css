@@ -1,4 +1,7 @@
 /* Dashboard Style */
+.dashboard_wrapper {
+    margin: 15px;
+}
 .student_details {
     font-family: Mulish !important;
     background-color: #E9E9E9;
@@ -9,6 +12,7 @@
     margin-right: 30px;
     height: 90%;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .heading {

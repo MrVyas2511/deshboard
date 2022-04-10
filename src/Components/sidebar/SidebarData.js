@@ -10,54 +10,54 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 
 
-export const  SidebarData =[
-    {
-        title:"Dashboard",
-        icon: <DashboardIcon/>,
-        link: "/dashboard"    
-    },
+export const SidebarData = [
+  {
+    title: "Dashboard",
+    icon: <DashboardIcon />,
+    link: "/",
+  },
 
-    {
-        title:"Activity Points",
-        icon: <PeopleAltIcon/>,
-        link: "/Activity points"    
-    },
+  {
+    title: "Activity Points",
+    icon: <PeopleAltIcon />,
+    link: "/Activitypoint",
+  },
 
-    {
-        title:"Scholarship",
-        icon: <SchoolIcon/>,
-        link: "/scholarship"    
-    },
+  {
+    title: "Scholarship",
+    icon: <SchoolIcon />,
+    link: "/scholarship",
+  },
 
-    {
-        title:"Result",
-        icon: <ReceiptIcon/>,
-        link: "/result"    
-    },
+  {
+    title: "Result",
+    icon: <ReceiptIcon />,
+    link: "/result",
+  },
 
-    {
-        title:"Payments/Fees",
-        icon: <PaymentsIcon/>,
-        link: "/payments"    
-    },
+  {
+    title: "Payments/Fees",
+    icon: <PaymentsIcon />,
+    link: "/payments",
+  },
 
-    {
-        title:"Settings",
-        icon: <SettingsIcon/>,
-        link: "/settings"    
-    },
+  {
+    title: "Profile",
+    icon: <SettingsIcon />,
+    link: "/settings",
+  },
 
-    {
-        title:"About",
-        icon: <InfoIcon/>,
-        link: "/about"    
-    },
+  {
+    title: "About",
+    icon: <InfoIcon />,
+    link: "/about",
+  },
 
-    {
-        title:"Log Out",
-        icon: <LogoutIcon/>,
-        link: "/logout"    
-    },
-]
+  {
+    title: "Log Out",
+    icon: <LogoutIcon />,
+    link: "/logout",
+  },
+];
  
 

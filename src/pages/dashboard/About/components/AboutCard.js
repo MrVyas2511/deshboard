@@ -10,7 +10,10 @@ import {
 
 function AboutCard() {
   return (
-    <Card sx={{ maxWidth: 200 }} style={{ background: "#C4C4C4", margin: "0" }}>
+    <Card
+      sx={{ maxWidth: 180 }}
+      style={{ background: "#C4C4C4", margin: "5px" }}
+    >
       <CardContent>
         <Avatar
           alt="Remy Sharp"

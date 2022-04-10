@@ -15,14 +15,11 @@ function App() {
     <>
       <div className="App">
         <BrowserRouter>
-         
-            <Sidebar />
-            
-          
-          <div >
+          <Sidebar />
+          <div className="content_section">
             <Routes>
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path='/activitypoint' element={<ActivityPoint />} />
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/activitypoint" element={<ActivityPoint />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </div>
