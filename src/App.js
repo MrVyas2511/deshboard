@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './Components/sidebar/Sidebar.js';
 import Dashboard from './pages/dashboard/Dashboard';
 import About from "./pages/dashboard/About";
-import ActivityPoint from './pages/dashboard/ActivityPoint';
+import ActivityPoints from './pages/dashboard/activitypoint';
 import {
   BrowserRouter,
   Routes,
@@ -22,7 +22,7 @@ function App() {
           <div >
             <Routes>
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path='/activitypoint' element={<ActivityPoint />} />
+              <Route path='/activitypoints' element={<ActivityPoints />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </div>

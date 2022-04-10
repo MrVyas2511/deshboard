@@ -20,7 +20,7 @@ export const  SidebarData =[
     {
         title:"Activity Points",
         icon: <PeopleAltIcon/>,
-        link: "/Activity points"    
+        link: "/activitypoints"    
     },
 
     {

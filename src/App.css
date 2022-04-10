@@ -21,8 +21,9 @@ body{
   padding: 0;
 }
 
-.menubar{
-  flex:20%;
+.menubar{ 
+  width: 23%;
+  height: 100%;
   height:auto;
   position: fixed absolute;
   background-color: #060e40;
@@ -34,13 +35,6 @@ body{
   }
 }
 
-.icon1{
-  float:right;
-  /*display: none;*/
-  color: white;
-  margin: 10px;;
-  background-color: #060e40;
-}
 
 .profile{
   width:100%;
@@ -51,8 +45,7 @@ body{
   align-items: center;
   justify-content: center;
   color: white;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 img{

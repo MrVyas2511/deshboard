@@ -3,16 +3,12 @@ import '../../App.css'
 import { SidebarData } from "./SidebarData";
 import profile from './profile.PNG';
 import { Link } from "react-router-dom";
-import DehazeIcon from '@mui/icons-material/Dehaze';
-
 
 function Sidebar() {
 
 
     return (
-        <div className='menubar'>
-            
-            <button className="icon1" ><DehazeIcon /></button>
+        <div className='menubar'> 
             <div className='profile'>
                 <img id="img" src={profile} alt="" />
 
