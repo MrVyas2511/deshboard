@@ -3,6 +3,8 @@ import Sidebar from "./Components/sidebar/Sidebar.js";
 import Dashboard from "./pages/dashboard/Dashboard";
 import About from "./pages/dashboard/About";
 import ActivityPoints from "./pages/dashboard/activitypoint";
+import Scholarship from "./pages/dashboard/Scholarship";
+import Payments from "./pages/dashboard/Payments";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
