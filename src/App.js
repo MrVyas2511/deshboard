@@ -1,10 +1,8 @@
-import './App.css';
-import Sidebar from './Components/sidebar/Sidebar.js';
-import Dashboard from './pages/dashboard/Dashboard';
+import "./App.css";
+import Sidebar from "./Components/sidebar/Sidebar.js";
+import Dashboard from "./pages/dashboard/Dashboard";
 import About from "./pages/dashboard/About";
-// import ActivityPoint from './pages/dashboard/ActivityPoint';
-import Scholarship from "./pages/dashboard/Scholarship";
-import Payments from "./pages/dashboard/Payments";
+import ActivityPoints from "./pages/dashboard/activitypoint";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,7 +14,7 @@ function App() {
           <div className="content_section">
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              {/* <Route path="/activitypoint" element={<ActivityPoint />} /> */}
+              <Route path="/activitypoints" element={<ActivityPoints />} />
               <Route path="/about" element={<About />} />
               <Route path="/scholarship" element={<Scholarship />} />
               <Route path="/payments" element={<Payments />} />

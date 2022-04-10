@@ -3,7 +3,6 @@ import "./index.css";
 import { SidebarData } from "./SidebarData";
 import profile from "./profile.PNG";
 import { Link } from "react-router-dom";
-import DehazeIcon from "@mui/icons-material/Dehaze";
 
 function Sidebar() {
   const [show, setShow] = useState(true);
