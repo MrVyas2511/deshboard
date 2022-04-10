@@ -10,10 +10,10 @@ function index() {
         <a href="#">Food-Bill</a>
       </Typography>
 
-      <Typography variant="h3" component="div" margin={"40px 0px 0px 0px"}>
+      <Typography variant="h3" component="div" margin={"40px 0px 0px 0px"} className="title">
         Scholarship
       </Typography>
-      <hr style={{ width: "100%" }}></hr>
+      {/* <hr style={{ width: "100%" }}></hr> */}
 
       <Typography variant="h6" component="div" margin={"40px 0px 10px 0px"}>
         Add Your Bank Details...

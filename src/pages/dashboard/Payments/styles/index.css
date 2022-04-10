@@ -2,3 +2,8 @@
     margin: 15px;
     margin-left: 30px;
 }
+.title {
+    font-weight: bold;
+    text-underline-offset: 15px;
+    text-decoration: underline;
+}

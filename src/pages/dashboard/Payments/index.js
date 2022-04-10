@@ -9,14 +9,20 @@ function index() {
         Usefull Links : <a href="#">SBI Collect</a>
       </Typography>
 
-      <Typography variant="h4" component="div" margin={"40px 0px 10px 0px"}>
+      <Typography
+        variant="h4"
+        component="div"
+        margin={"40px 0px 10px 0px"}
+        className="title"
+      >
         Payments/Fees
       </Typography>
-      <hr style={{ width: "100%", margin: "0px 0px 30px 0px" }}></hr>
+      {/* <hr style={{ width: "100%", margin: "0px 0px 30px 0px" }}></hr> */}
 
       <Button
         style={{
           backgroundColor: "#060E40",
+          margin: "30px 0px",
         }}
         variant="contained"
       >
