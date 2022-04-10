@@ -1,8 +1,7 @@
 import React from "react";
-import "../../App.css";
+import "./styles/index.css";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import { Grid, Typography, Button } from "@mui/material";
-import "./styles/style.css";
 const data = {
   name: "xyz",
   Enrollment: "190130107111",

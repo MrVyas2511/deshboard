@@ -1,8 +1,10 @@
 import React from "react";
 import { Typography, Divider, Grid } from "@mui/material";
 import AboutCard from "./components/AboutCard";
+import "./styles/index.css";
 const faculty = ["xyz", "xyz"];
 const developers = ["xyz", "xyz", "xyz", "xyz"];
+
 function About() {
   return (
     <div className="About_wrapper">
