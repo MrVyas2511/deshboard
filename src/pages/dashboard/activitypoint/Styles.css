@@ -1,0 +1,24 @@
+.apoint{
+    width: auto;
+    height: 100%;
+   margin: 20px !important;
+}
+
+.link{
+    width: auto;    
+    margin: 20px;
+}
+
+.head{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin: 10px 30px;
+}   
+
+.alert{
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 30px;
+}
+
