@@ -1,22 +1,28 @@
 import './App.css';
 import Sidebar from './Components/sidebar/Sidebar.js';
 import Dashboard from './pages/dashboard/Dashboard';
+import About from "./pages/dashboard/About";
+import ActivityPoint from './pages/dashboard/ActivityPoint';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import About from "./pages/dashboard/About";
+
 
 function App() {
   return (
     <>
       <div className="App">
         <BrowserRouter>
-          <Sidebar />
-          <div className="dashboard_wrapper">
+         
+            <Sidebar />
+            
+          
+          <div >
             <Routes>
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path='/activitypoint' element={<ActivityPoint />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </div>

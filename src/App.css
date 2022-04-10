@@ -1,37 +1,45 @@
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  
 }
 
 *{
   box-sizing: border-box;
 }
 
-@media screen and (min-width:600px){
-  .sidebar{
-    width: 100%;
-    display: none;
-    background-color: red;
+@media screen and (max-width:800px) {
+  .App{
+    flex-direction: column;
   }
-} 
+}
 
 body{
   margin: 0;
   padding: 0;
 }
 
-.sidebar{
+.menubar{
+  flex:20%;
+  height:auto;
+  position: fixed absolute;
+  background-color: #060e40;
+}
 
-  position: fixed;
-  display: flex;
-  height: 100%;
-  width: 19%;
-  padding: 0;
-  background-color: #060E40;
-  margin-right: 20px;
-  display: inline-block;
-  float: left;
-  flex-wrap: wrap;
+@media screen and (max-width:800px) {
+  .menubarbar{
+    width: 100%;
+  }
+}
+
+.icon1{
+  float:right;
+  /*display: none;*/
+  color: white;
+  margin: 10px;;
+  background-color: #060e40;
 }
 
 .profile{
@@ -45,10 +53,6 @@ body{
   color: white;
   text-align: center;
   
-}
-
-#name{
-  background-color: #060E40;
 }
 
 img{
@@ -79,6 +83,7 @@ img{
 
 }
 
+
 .listItem #icon{
   flex: 30%;
   display:flex;
@@ -89,18 +94,13 @@ img{
 .listItem #title{
   flex: 70%;
   display: grid;
+  color:white;
   align-items: center; 
-  text-decoration: none;
 }
 
 
-.dashboard_wrapper{
-  display: block;
-   width: 77%;
-   flex: 100%;
-  float: right;
-   
-}
 
 
  
+ 
+
